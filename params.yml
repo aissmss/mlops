@@ -16,9 +16,10 @@ split_data:
 
 estimators:
   ElasticNet:
+  
     params:
       alpha: 0.9
-      l1_ratio: 0.7
+      l1_ratio: 0.3
 
 model_path: models/models.joblib
 
@@ -27,8 +28,8 @@ model_path: models/models.joblib
 #   score: reports/scores.json
 
 mlflow_config:
-  artifacts_dir: artifacts
-  experiment_name: insurance_aissmms
+  artifatcs_dir: artifacts
+  experiment_name: insurance_aissm
   run_name: mlops
   registered_model_name: ElasticNet
-  tracking_url: https://127.0.0.1:5000
+  remote_server_uri: http://127.0.0.1:5000

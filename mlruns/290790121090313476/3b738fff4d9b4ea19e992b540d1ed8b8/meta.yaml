@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/290790121090313476/3b738fff4d9b4ea19e992b540d1ed8b8/artifacts
+deleted_time: 1738910258762
+end_time: 1738908520082
+entry_point_name: ''
+experiment_id: '290790121090313476'
+lifecycle_stage: deleted
+run_id: 3b738fff4d9b4ea19e992b540d1ed8b8
+run_name: mlops
+run_uuid: 3b738fff4d9b4ea19e992b540d1ed8b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738908513573
+status: 4
+tags: []
+user_id: Prasad
